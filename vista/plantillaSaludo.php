@@ -7,12 +7,16 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Plantilla Saludo</title>
     </head>
     <body>
-        <form method="get" action="controladores/Controlador">
-            Saludo<input type="text" name="saludo"/><br>
-            <input type="submit" value="Enviar Saludo"/>
-        </form>
+        <h1>ESte es el saludo</h1>
+        <p style="color:red">
+            <?php
+            echo $saludo;
+        ?>
+            
+        </p>
+        
     </body>
 </html>
